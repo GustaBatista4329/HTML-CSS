@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F61C</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="img/harry-p.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="img/harry-m.jpg" type="image/jpg">
+        <img src="img/harry-g.jpg" alt="dragão do harry potter">
+    </picture>
+</body>
+</html>

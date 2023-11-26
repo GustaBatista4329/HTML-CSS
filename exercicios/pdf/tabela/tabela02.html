@@ -6,19 +6,24 @@
     <title>Notas</title>
     <style>
         table{
-            width: 500px;
+            width: 450px;
+            height: 200px;
             border: 1px solid black;
             border-collapse: collapse;        
         }
 
         th, td{
             border: 1px solid black;
+            text-align: center;
         }
 
         th{
-            background-color: #575757dd;
-            color: white;
+            background-color: lightgray;
             text-align: left;
+        }
+
+        .media{
+            text-align: center;
         }
     </style>
 </head>
@@ -60,7 +65,7 @@
             </tr>
             <tr>
                 <th colspan="4">Médida de Exatas</th>
-                <th>0.0</th>
+                <th class="media">0.0</th>
             </tr>
             <tr>
                 <td rowspan="2">Humanas</td>
@@ -79,7 +84,7 @@
         <tfoot>
             <tr>
                 <th colspan="4">Média de Humanas</th>
-                <th>0.0</th>
+                <th class="media">0.0</th>
             </tr>
         </tfoot>
     </table>

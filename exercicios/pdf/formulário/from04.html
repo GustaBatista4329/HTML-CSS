@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" oninput="itot.value = Number(ipreco.value) * Number(iquant.value)">
+        <p><label for="iprod">Produto:</label>
+            <input type="text" name="produto" id="iprod"></p>
+        <p><label for="ipreco">Preço: R$</label>
+            <input type="number" name="preco" id="ipreco"></p>
+        <p><label for="iquant">Quantidade:</label>
+            <input type="number" name="quant" id="iquant"></p>
+        <p><label for="itot">Total: R$</label>
+            <output name="total" id="itot">0</output></p>
+        <input type="button" value="Enviar"> 
+    </form>
+</body>
+</html>

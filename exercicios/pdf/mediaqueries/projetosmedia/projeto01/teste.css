@@ -1,0 +1,56 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: rgba(128, 128, 128, 0.493);
+    text-align: center;
+}
+
+#title{
+    padding: 40px;
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a.link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.322);
+}
+
+main{
+    text-indent: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main h1{
+    padding-left: 0px;
+}
+
+@media screen and (min-width: 769px){
+    nav > a.link{
+        display: inline-block;
+    }
+    
+}

@@ -13,6 +13,18 @@ body{
 header{
     background-color: rgba(128, 128, 128, 0.493);
     text-align: center;
+    cursor: pointer;
+}
+
+#burguer{
+    display: block;
+    background-color: rgb(80, 80, 80);
+    padding: 10px;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
 }
 
 #title{
@@ -21,6 +33,7 @@ header{
 
 nav{
     text-align: left;
+    display: none;
 }
 
 nav > a.link{
